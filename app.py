@@ -8,11 +8,6 @@ def hello_world():
     return render_template("home.html")
 
 
-@app.route("/gallery/")
-def gallery():
-    return render_template("gallery.html")
-
-
 @app.route("/contact/")
 def contact():
     return render_template("contact.html")
