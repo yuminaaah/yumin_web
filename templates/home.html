@@ -5,36 +5,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>Kim</title>
-    <meta name="description" content="Yumin Kim's website.">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <style>
-        body {
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            text-align: center;
-        }
-
-        h1 {
-            font-size: calc(1.625rem + 4.5vw);
-            font-weight: 300;
-            line-height: 1;
-        }
-
-        @media (min-width: 1200px) {
-            h1 {
-                font-size: 5rem;
-            }
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Hello!</h1>
-    <h1>안녕하세요!</h1>
-    <h1>&#128039; &#127802;</h1>
-    <p>Welcome to my website &#128516;</p>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yumin Kim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gallery/">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/name/">For Fun</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="text-center">
+        <h1 class="display-1">Hello!</h1>
+        <h1 class="display-1">안녕하세요!</h1>
+        <h1 class="display-1">&#128039; &#127802;</h1>
+        <p>Welcome to my website &#128516;</p>
+    </div>
+
 </body>
 
 </html>
