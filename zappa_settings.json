@@ -1,0 +1,8 @@
+{
+    "production": {
+        "app_function": "app.app",
+        "project_name": "yumin-web",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-nekooo00v"
+    }
+}
