@@ -6,7 +6,7 @@
         "project_name": "yumin-web",
         "runtime": "python3.9",
         "s3_bucket": "zappa-ei6xfut64",
-        "certificate_arn": "arn:aws:acm:us-east-1:125379754952:certificate/76c3b8c6-9092-41b6-8294-45b04f25e947",
+        "certificate_arn": "arn:aws:acm:us-east-1:125379754952:certificate/1677ff1d-97b4-4b8f-bd07-1b79028bc8b5",
         "domain": "yumin.kim"
     }
 }
